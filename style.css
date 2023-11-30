@@ -1,0 +1,60 @@
+*{
+    background-color: rgb(240, 242, 245);
+    /* align-items: center; */
+}
+.main{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 75px;
+
+}
+.logo h1{
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Space Grotesk', sans-serif;
+    /* font-weight: bolder; */
+    font-size: 70px;
+    color: blue;
+    font-weight: 500;
+}
+.logo h2{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.main_2 form{
+    background-color: white;
+    height: 400px;
+    width: 396px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+   gap: 20px;
+   padding-top: 10px;
+}
+.main_2 input{
+    padding: 14px 16px;
+    width: 330px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.main_2 button{
+    width: 330px;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 16px;
+    background-color: blue;
+    color: white;
+}
+.line{
+    border: 1px solid rgb(240, 242, 245);
+    display: flex;
+    margin: 15px 16px;
+    text-align: center;
+    align-items: center;
+    width: 364px;
+}
